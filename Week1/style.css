@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@700&family=Secular+One&display=swap');
+
+body{
+    background-color: #E5E5CB;
+    font-family: 'Poppins', sans-serif;
+    color: #3C2A21;
+    margin: 20px;
+}
+
+.header{
+    font-size: 20px;
+    background-color: #3C2A21;
+    font-weight: 500;
+}
+
+.nav__container{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+}
+
+.nav__logo{
+    width: 10vw;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.nav__logo img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.nav__menu{
+    width: 65vw;
+}
+
+.nav__list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.nav__item{
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav__item a{
+    color: #E5E5CB;
+    text-decoration: none;
+}
+
+.nav__item a:hover{
+    color: #C5BE93;
+}
+
+.nav__search{
+    width: 25vw;
+    font-size: 20px;
+}
+
+.nav__input{
+    width: 60%;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 0;
+}
+
+.nav__icon{
+    color: #E5E5CB;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.nav__icon:hover{
+    cursor: pointer;
+    color: #C5BE93;
+}
+
+.content__wrapper{
+    display: flex;
+    align-items: center;
+    height: 84vh;
+}
+
+.left__container,
+.right__container{
+    width: 50%;
+}
+
+.left__container{
+    padding-left: 100px;
+}
+
+.title,
+.subtitle{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+}
+
+.subtitle{
+    font-size: 30px;
+}
+
+.cup__icon{
+    font-size: 40px;
+    color: #3C2A21;
+}
+
+p, span{
+    font-size: 20px;
+}
+
+span a{
+    color: #3C2A21;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+span a:hover{
+    color: #785544;
+}
+
+.links__icon{
+    color: #3C2A21;
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.links__icon:hover{
+    color: #785544;
+}
+
+.contact__form{
+    background-color: white;
+    width: 40%;
+    border-radius: 20px;
+    padding: 25px;
+    margin-left: 200px;
+    color: #3C2A21;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.form__contents{
+    padding-bottom: 12px;
+    padding-right: 12px;
+}
+
+.form__input{
+    width: 100%;
+    padding: 5px;
+}
+
+.form__button{
+    width: 100%;
+    padding: 5px;
+    background-color: #3C2A21;
+    color: #E5E5CB;
+    border: 0;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.form__button:hover{
+    cursor: pointer;
+    background-color: #785544;
+}
+
+.form__checked{
+    color: orange;
+}
+
+.footer{
+    text-align: center;
+}
